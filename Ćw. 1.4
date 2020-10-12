@@ -1,0 +1,11 @@
+import random
+while True:
+    randnum=random.randint(1,100)
+    number=0
+    while randnum != number:
+        number = int(input("podaj liczbe:"))
+        if number < randnum:
+            print("Liczba za mala")
+        elif number > randnum:
+            print("Liczba za duża")
+    print("Brawo, zgadłeś mój przyjacielu")
